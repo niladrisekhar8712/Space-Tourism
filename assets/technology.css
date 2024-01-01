@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/technology/background-technology-desktop.jpg');
+    background-image: url('assets/technology/background-technology-desktop.jpg');
 }
 
 .header0 {
@@ -138,7 +138,7 @@ body {
 }
 @media screen and (max-width: 805px) {
     body{
-        background-image: url('/assets/technology/background-technology-mobile.jpg');
+        background-image: url('assets/technology/background-technology-mobile.jpg');
     }
     .nav-pills{
         font-size: 12px;
@@ -149,7 +149,7 @@ body {
 }
 @media screen and (max-width: 1067px){
     body{
-        background-image: url('/assets/technology/background-technology-tablet.jpg');
+        background-image: url('assets/technology/background-technology-tablet.jpg');
     }
     .flex1 {
         margin: 0; /* Revert to original margin on tablets */
