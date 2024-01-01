@@ -1,0 +1,236 @@
+body {
+    background-image: url('crew/background-crew-desktop.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header0 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 7rem;
+    backdrop-filter: blur(70px);
+}
+
+.nav {
+
+    /* color: #FFF; */
+    --bs-link-color: white;
+    --bs-link-hover-color: gray;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.flex1 {
+    margin-left: 8rem;
+    display: flex;
+    width: 378px;
+    justify-content: space-evenly;
+}
+
+.flex1-container {
+    color: gray;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+#flex1-container-1 {
+    font-weight: 1000;
+}
+
+#flex1-container-2 {
+    color: white;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.main-body {
+    width: 40%;
+    margin: 2rem;
+}
+
+.pic{
+    filter: drop-shadow(20px 20px 10px #6d6c6c);
+}
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-content-1 {
+    color: #FFF;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.5042;
+}
+
+#main-content-2 {
+    color: #FFF;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#main-content-3 {
+    color: #D0D6F9;
+    width: 444px;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+}
+#main-content-4{
+    flex-basis: 1vh;
+}
+.button {
+    background-color: gray;
+    border: none;
+    /* color: white; */
+    /* padding: 20px; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.button-clicked{
+    background-color: white;
+}
+@media screen and (max-width: 805px) {
+    .nav-pills{
+        font-size: 12px;
+    }
+    body{
+        background-image: url('crew/background-crew-mobile.jpg');
+    }
+    .main {
+        flex-direction: column-reverse; /* Stack items vertically on small screens */
+    }
+    .header0 {
+        flex-direction: row; /* Revert to horizontal layout on larger screens */
+    }
+    .flex1{
+        margin: 0px;
+    }
+    .flex1-container {
+        font-size: 28px; /* Revert to original font size on larger screens */
+        letter-spacing: 4.725px; /* Revert to original letter spacing on larger screens */
+    }
+
+    .main-body {
+        text-align: center;
+        width: 80%; /* Revert to original width on larger screens */
+        margin: 2rem; /* Revert to original margin on larger screens */
+        
+    }
+
+    #main-content-1 {
+        font-size: 22.86px; /* Revert to original font size on larger screens */
+    }
+
+    #main-content-2 {
+        font-size: 40px; /* Revert to original font size on larger screens */
+    }
+
+    #main-content-3 {
+        font-size: 15px;
+        width: 100%; /* Revert to original width on larger screens */
+    }
+    .role,.description,.button{
+        text-align: center;
+    }
+    .pic{
+        width: 265px;
+        
+    }
+
+    .button {
+        width: 15px; /* Revert to original width on larger screens */
+        height: 15px; /* Revert to original height on larger screens */
+    }
+}
+@media screen and (min-width: 805px) and (max-width: 1067px) {
+    body {
+        background-image: url('crew/background-crew-tablet.jpg');
+    }
+
+    .main {
+        flex-direction: column-reverse; /* Stack items vertically on tablets */
+    }
+
+    .header0 {
+        flex-direction: row; /* Revert to horizontal layout on tablets */
+    }
+
+    .flex1 {
+        margin: 0; /* Revert to original margin on tablets */
+    }
+
+    .flex1-container {
+        font-size: 28px; /* Revert to original font size on tablets */
+        letter-spacing: 4.725px; /* Revert to original letter spacing on tablets */
+    }
+
+    .main-body {
+        text-align: center;
+        width: 80%; /* Revert to original width on tablets */
+        margin: 2rem; /* Revert to original margin on tablets */
+    }
+
+    #main-content-1 {
+        font-size: 32px; /* Revert to original font size on tablets */
+    }
+
+    #main-content-2 {
+        font-size: 56px; /* Revert to original font size on tablets */
+    }
+
+    #main-content-3 {
+        text-align: center;
+        width: 100%; /* Revert to original width on tablets */
+    }
+
+    #main-content-4 {
+        align-self: center; /* Center the element vertically on tablets */
+    }
+
+    .role, .description, .button {
+        text-align: center;
+    }
+
+    .pic {
+        width: 265px;
+        filter: drop-shadow(20px 20px 10px #6d6c6c);
+    }
+
+    .button {
+        width: 15px; /* Revert to original width on tablets */
+        height: 15px; /* Revert to original height on tablets */
+    }
+}
