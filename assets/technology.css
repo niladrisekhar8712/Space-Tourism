@@ -149,7 +149,7 @@ body {
 }
 @media screen and (max-width: 1067px){
     body{
-        background-image: url('assets/technology/background-technology-tablet.jpg');
+        background-image: url('technology/background-technology-tablet.jpg');
     }
     .flex1 {
         margin: 0; /* Revert to original margin on tablets */
@@ -167,7 +167,7 @@ body {
     }
     .pic{
         width: 80%;
-        /* content: url('/assets/technology/image-launch-vehicle-portrait.jpg'); */
+        /* content: url('technology/image-launch-vehicle-portrait.jpg'); */
     }
     .main-plot-1{
         flex-direction: row;
