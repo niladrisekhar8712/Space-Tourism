@@ -15,10 +15,10 @@
 
 ### Screenshot
 
-![Landing Page](\Screenshots\Space tourism (11.01.2024 07_21).png)
-![Destination](\Screenshots\Destination - Space tourism (11.01.2024 07_23).png)
-![Crew](\Screenshots\Crew - Space tourism (11.01.2024 07_24).png)
-![Technology](\Screenshots\Technology - Space tourism (11.01.2024 07_24).png)
+![](\Screenshots\Space tourism (11.01.2024 07_21).png)
+![](\Screenshots\Destination - Space tourism (11.01.2024 07_23).png)
+![](\Screenshots\Crew - Space tourism (11.01.2024 07_24).png)
+![](\Screenshots\Technology - Space tourism (11.01.2024 07_24).png)
 
 
 ## My process
