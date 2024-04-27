@@ -167,7 +167,7 @@ body {
     }
     .pic{
         width: 80%;
-        /* content: url('technology/image-launch-vehicle-portrait.jpg'); */
+        /* content: url('/assets/technology/image-launch-vehicle-portrait.jpg'); */
     }
     .main-plot-1{
         flex-direction: row;
