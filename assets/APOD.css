@@ -1,0 +1,26 @@
+body {
+    background-image: url('destination/background-destination-desktop.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#title1{
+    color: #D0D6F9;
+    font-family: 'Bellefair', sans-serif;
+}
+#desc1{
+    color: #FFF;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+@media screen and (max-width: 1067px) {
+    body {
+        background-image: url('destination/background-destination-tablet.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    body {
+        background-image: url('destination/background-destination-mobile.jpg');
+        /* background-size: 100% 100%; */
+    }
+}
