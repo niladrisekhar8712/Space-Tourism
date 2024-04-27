@@ -123,6 +123,9 @@ body {
     background-color: white;
 }
 @media screen and (max-width: 805px) {
+    body {
+        background-image: url('crew/background-crew-mobile.jpg');
+    }
     .nav-pills{
         font-size: 12px;
     }
