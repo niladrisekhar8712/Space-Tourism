@@ -29,7 +29,7 @@
 - CSS custom properties
 - Bootstrap
 - JavaScript
-- NASA AOPD API
+- NASA APOD API
 
 ### What I learned
 
